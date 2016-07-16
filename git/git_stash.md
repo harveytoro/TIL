@@ -12,7 +12,7 @@ Show stashes.
 $ git stash list
 ```
 
-Restore a stash
+Restore a stash.
 
 ```bash
 $ git stash pop

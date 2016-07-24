@@ -37,3 +37,26 @@ git cat-file can be used to see annotated tag.
 ```bash
 $ git cat-file -p someTag
 ```
+
+References between commits = History
+
+All other references = Content
+
+##### Branches and HEAD
+Branch is a reference to a commit.
+
+HEAD is a reference to a branch (pointer to a pointer).
+
+Move between branches. 
+
+```bash
+$ git checkout someBranch
+```
+
+##### Checking out a specific commit 
+
+```bash
+$ git checkout SHA1
+```
+
+this will give a detached head. Can carry on committing, then when experimentation is over checkout master or another branch again. Objects will become unreachable and git will garbage collect at some point during another operation, to save the detached head git branch before returning to master.

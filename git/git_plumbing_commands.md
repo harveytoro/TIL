@@ -17,3 +17,9 @@ Switching branch using symbolic-ref. (this will not update the working directory
 ```bash
 $ git symbolic-ref HEAD refs/heads/existingBranch
 ```
+
+View dangling objects by running an integrity check.
+
+```bash
+$ git fsck —full
+```

@@ -12,7 +12,7 @@ Show stashes.
 $ git stash list
 ```
 
-Restore a stash.
+Restore a stash. Without specifying an index this pops the stash at 0 (as expected acts like a stack, new stashes are pushed on to the top and popped off).
 
 ```bash
 $ git stash pop

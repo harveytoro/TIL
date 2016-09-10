@@ -17,3 +17,9 @@ Finding service exe files.
 ```bash
 Regedit > HKEY_LOCAL_MACHINE > SYSTEM > CurrentControlSet > Services 
 ```
+
+ODBC Data Source Administrator.
+
+```bash
+%SystemRoot%\SysWOW64 > odbcad32.exe
+```

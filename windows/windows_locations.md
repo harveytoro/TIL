@@ -23,3 +23,9 @@ ODBC Data Source Administrator.
 ```bash
 %SystemRoot%\SysWOW64 > odbcad32.exe
 ```
+
+ILDasm IL Disassembler
+
+```bash
+%HomeDrive%\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6 Tools > ildasm.exe
+```

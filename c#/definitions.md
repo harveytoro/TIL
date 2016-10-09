@@ -14,3 +14,6 @@ How types are defined and how they behave.
 Runtime execution environment, that can support many language. Handles the
 memory management, assembly loading, exception handling, security and thread synchronisation. It does the JIT (Just-In-Time)
 compilation.
+
+##### CLI : Common Language Infrastructure
+Open specification that describes executable runtime environments. The CLR is Microsofts implementation of the CLI.

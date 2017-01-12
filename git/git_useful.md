@@ -10,5 +10,5 @@ $  git log --graph --oneline --all
 - Git checkout branch
 
 ```bash
-$  git checkout -b feature/<branchname>
+$ git checkout -b feature/<branchName> --track origin/feature/<branchname>
 ```

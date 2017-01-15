@@ -30,3 +30,11 @@ $ git clean -f
 ```bash
 $ git reset --hard origin/master
 ```
+
+- Rename a branch
+
+```bash
+$ git branch -m <current name> <new name> # if not on branch to rename
+
+$ git branch -m <new name> # if on branch to rename
+```

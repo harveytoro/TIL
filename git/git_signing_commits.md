@@ -12,3 +12,9 @@ $ git config --global user.signingkey <GPG KEY ID>
 ```bash
 $ git config --global commit.gpgsign true 
 ```
+
+- Sign individual commit
+
+```bash
+$ git commit -S -m <COMMIT MESSAGE>
+```

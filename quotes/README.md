@@ -26,3 +26,7 @@ Therefore, if you write the code as cleverly as possible, you are,
 by definition, not smart enough to debug it."
 Brian Kernighan and P.J. Plauger, The Elements of Programming Style
 ```
+
+```
+"Four hour rule: Do not write code unless you can at least have 4 hours of contiguous time where you will not be interrupted, otherwise you end up introducing more bugs than the code you are writing." Ray Ozzie
+```

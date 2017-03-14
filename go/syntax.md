@@ -129,3 +129,27 @@ func (p *Person) Print() string {
 	return p.name + " " + strconv.Itoa(123)
 }
 ```
+
+##### Interfaces
+
+```go
+// No explicit implements keyword, a type implements an interface by implementing its methods
+type Person struct {
+	name string
+	age int	
+}
+
+type Printable interface {
+	Print() string
+}
+
+func (p Person) Print() string {
+	return p.name + " " + strconv.Itoa(123)
+}
+
+func main() {
+	var v Printable = Person{"jon", 40}
+	fmt.Println(v.Print())
+} 
+
+```

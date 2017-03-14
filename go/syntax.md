@@ -100,3 +100,32 @@ litM["oneKey"] = "ChangeValue"
 delete(litM, "TwoKey")
 value, ok = litM["TwoKey"] // ok will be true or false
 ```
+
+##### Methods
+
+```go
+// functions with receiver argument between the func keyword and the method name
+type Person struct {
+	name string
+	age int	
+}
+
+func (p Person) Print() string {
+	return p.name + " " + strconv.Itoa(123)
+}
+
+func main() {
+	v := Person{"jon", 40}
+	fmt.Println(v.Print())
+}
+
+// methods can be defined on types other than struct but type must be in same package
+// thus not primative types
+
+// pointer receiver are more common, allow for modification of underlying value
+
+func (p *Person) Print() string {
+	p.name = "NewName" // changes value
+	return p.name + " " + strconv.Itoa(123)
+}
+```

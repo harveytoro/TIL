@@ -50,3 +50,25 @@ aPointerToPerson.name = "Jane Doe"
 anotherPerson := Person{name: "Joe Bloggs"}
 ```
 
+##### Arrays & Slices
+
+```go
+
+// Arrays are fixed size
+var arr [5]int
+
+arr2 := [3]int{1,2,3}
+
+// reference to section of an array, changing element in slice changes underlying array
+var slice []int = arr2[0:1]
+
+// slice literal, builds the underlying array
+lit := []int{1,2,3}
+ 
+lit[1:] // 2 3
+lit[:3] // 1 2 3
+lit[:] // 1 2 3
+
+len(lit) // number of elements in a slice (zero value is nil)
+cap(lit) // number of element in the underlying array (zero value is nill)
+```

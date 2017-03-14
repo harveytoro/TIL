@@ -71,4 +71,15 @@ lit[:] // 1 2 3
 
 len(lit) // number of elements in a slice (zero value is nil)
 cap(lit) // number of element in the underlying array (zero value is nill)
+
+// using make and append
+a := make([]int, 5) // allocate a zero'd array of 5 elements
+a = append(a,1) // append 1 to the slice
+fmt.Println(a[:]) // prints 0 0 0 0 0 1
+ 
+// using range on slice - to drop index use _, value - to drop value use index
+for index, value := range lit {
+	// index in slice
+ // value in slice
+}
 ```

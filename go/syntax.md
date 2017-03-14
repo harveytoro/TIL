@@ -79,7 +79,24 @@ fmt.Println(a[:]) // prints 0 0 0 0 0 1
  
 // using range on slice - to drop index use _, value - to drop value use index
 for index, value := range lit {
-	// index in slice
+ // index in slice
  // value in slice
 }
+```
+
+##### Maps
+
+```go
+// use make to initialise a map
+m := make(map[string]string)
+m["theKey"] = "theValue"
+
+var litM = map[string]string{
+	"oneKey": "OneValue",
+	"TwoKey": "TwoValue",
+}
+
+litM["oneKey"] = "ChangeValue"
+delete(litM, "TwoKey")
+value, ok = litM["TwoKey"] // ok will be true or false
 ```

@@ -202,3 +202,46 @@ func main() {
 	}
 }
 ```
+
+##### Goroutines
+
+```go
+// Concurrency in Go
+go funcName()
+
+// use channels to communicate between Goroutines
+// "Don't communicate by sharing memory, share memory by communicating." https://talks.golang.org/2012/splash.article
+// send and receive values using <- operator
+// channels need creating before use
+chan := make(chan int) // channel that receives send ints
+
+chan <- 1 // send to channel
+i := <-chan // receive from channel and assign to i
+// send and receive until the other side is ready allowing for synchronisation without locks
+
+// buffered channels, second argument to make
+chan := make(chan int, 2) // sends buffered channel blocks until buffer is full, receive blocks when buffer is empty
+
+// channel can be closed by the sender, only if the receiver needs to be told
+close(chan)
+
+// receiver can check for closed channel by using second parameter from receiver
+n, ok := <-chan
+
+// also 
+for i := range chan {
+// this would loop while channel is not closed
+}
+
+// wait on multiple channels using select
+select {
+case <-chan:
+// some operation
+case <-otherChan:
+// another operation
+default:
+// run if no other case is ready
+}
+// if both are ready will select at random
+
+```

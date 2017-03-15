@@ -152,4 +152,23 @@ func main() {
 	fmt.Println(v.Print())
 } 
 
+// Every type implements the interface (zero methods)
+interface{}
+
+// type assertions
+t := i.(T) // says that the interface i holds the type T if this false causes panic
+
+// safe type assertion
+t, ok := i.(T) // if this is correct then ok will be true and T will contain the value
+t, ok := i.(string)
+
+// type switches
+switch value := i.(type) {
+case string:
+ // value is string
+case int:
+ // value is int
+default:
+ // unknown type, type remains interface i
+}
 ```

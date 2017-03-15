@@ -172,3 +172,33 @@ default:
  // unknown type, type remains interface i
 }
 ```
+
+##### Errors
+
+```go
+// No throws 
+// error is a built-in interface
+// check error returned from functions against nil, error value that is nil implies success
+import (
+	"errors"
+	"fmt"
+)
+
+func run(n string) (string, error) {
+	if n == "Hello" {
+		return "World",nil
+	}
+	return "", errors.New("SomeError")
+}
+
+func main() {
+	
+	val, err := run("d")
+	
+	if err == nil {
+		fmt.Println(val)
+	} else {
+		fmt.Println(err)
+	}
+}
+```

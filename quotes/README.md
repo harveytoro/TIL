@@ -32,3 +32,8 @@ Brian Kernighan and P.J. Plauger, The Elements of Programming Style
 of contiguous time where you will not be interrupted, otherwise you end up 
 introducing more bugs than the code you are writing." Ray Ozzie
 ```
+
+```
+"Do not communicate by sharing memory; instead, share memory by communicating."
+https://blog.golang.org/share-memory-by-communicating
+```

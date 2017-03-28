@@ -33,5 +33,5 @@ ILDasm IL Disassembler
 Visual Studio Instance Files
 
 ```bash
-C:\Users\harvey\AppData\Local\Microsoft\VisualStudio\
+C:\Users\<user>\AppData\Local\Microsoft\VisualStudio\
 ```

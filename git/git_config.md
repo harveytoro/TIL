@@ -1,4 +1,4 @@
-##GIT Config
+## GIT Config
 
 Replace all global emails with single email address.
 

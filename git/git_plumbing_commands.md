@@ -1,4 +1,4 @@
-##Git Plumbing commands
+## Git Plumbing commands
 
 Updating a reference. Creating a branch using update-ref. Git branch uses update-ref using the SHA1 of the last commit (known by using the HEAD file).
 

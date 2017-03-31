@@ -1,4 +1,4 @@
-##GIT - Change remote URL [HTTPS -> SSH]
+## GIT - Change remote URL [HTTPS -> SSH]
 
 Git asking for username and password when SSH was already configured. Originally cloned repository using HTTPS URL.
 

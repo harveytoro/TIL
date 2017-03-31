@@ -1,4 +1,4 @@
-##GIT Internals
+## GIT Internals
 
 Git objects:
 + Blobs

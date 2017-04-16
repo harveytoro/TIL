@@ -6,8 +6,7 @@
 $ git rebase -i HEAD~3
 
 // opens last three commits, change pick to edit
-
-then 
+// then 
 
 $ git commit --amend --author "harveytoro <email@email.com>"
 $ git rebase --continue

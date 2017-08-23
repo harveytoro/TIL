@@ -25,6 +25,12 @@ $ git diff origin/master
 $ git clean -f
 ```
 
+- Remove file from staging area
+
+```bash
+$ git reset <file>
+```
+
 - Reset to remote master. e.g removing locally committed changes
 
 ```bash

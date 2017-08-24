@@ -1,4 +1,4 @@
-##GIT Signing Commits
+## GIT Signing Commits
 
 
 - Setting up gpg key id

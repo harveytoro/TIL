@@ -1,4 +1,4 @@
-##Git reset and reflow
+## Git reset and reflow
 
 Putting master back to a specific commit.
 

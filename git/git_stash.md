@@ -1,4 +1,4 @@
-##GIT stash
+## GIT stash
 
 Create a stash.
 

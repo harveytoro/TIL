@@ -37,6 +37,12 @@ $ git reset <file>
 $ git reset --hard origin/master
 ```
 
+- Deleted files staging
+
+```bash
+$ git rm <file>
+```
+
 - Rename a branch
 
 ```bash

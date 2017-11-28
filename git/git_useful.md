@@ -50,3 +50,11 @@ $ git branch -m <current name> <new name> # if not on branch to rename
 
 $ git branch -m <new name> # if on branch to rename
 ```
+
+- Update branch without switching to it
+
+```bash
+
+$  git update-ref refs/heads/master origin/master # need to fetch prior to this
+
+```

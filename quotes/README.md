@@ -44,7 +44,9 @@ Satya Nadella
 ```
 
 ```
-"Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose. You are already naked. There is no reason not to follow your heart."
+"Remembering that you are going to die is the best way I know 
+to avoid the trap of thinking you have something to lose. 
+You are already naked. There is no reason not to follow your heart."
 Steve Jobs
 ```
 

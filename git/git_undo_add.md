@@ -1,4 +1,4 @@
-##GIT Undo git add before commit
+## GIT Undo git add before commit
 
 For single file undo.
 

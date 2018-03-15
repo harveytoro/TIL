@@ -65,3 +65,13 @@ $ git branch -m <new name> # if on branch to rename
 $  git update-ref refs/heads/master origin/master # need to fetch prior to this
 
 ```
+
+- Revert to previous commit and push
+
+```bash
+# Recommend creating a branch at the current commit before doing this
+
+$ git reset --hard <COMMIT SHA>
+
+$ git push --force
+```

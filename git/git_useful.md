@@ -13,6 +13,13 @@ $  git log --graph --oneline --all
 $ git checkout -b feature/<branchName> --track origin/feature/<branchname>
 ```
 
+- Set upstream branch
+
+```bash
+# use of feature/ is optional
+$ git push --set-upstream origin feature/<branch name>
+```
+
 - Diff against a remote branch
 
 ```bash

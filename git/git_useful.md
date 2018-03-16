@@ -75,3 +75,11 @@ $ git reset --hard <COMMIT SHA>
 
 $ git push --force
 ```
+
+- Delete local and remote 
+
+```bash
+
+$ git push origin --delete <branch nane>
+
+```

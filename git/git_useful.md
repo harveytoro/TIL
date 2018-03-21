@@ -83,3 +83,13 @@ $ git push --force
 $ git push origin --delete <branch nane>
 
 ```
+
+- Cherry pick commit
+
+```bash
+
+$ git fetch
+
+$ git cherry-pick <SHA>
+
+```

@@ -86,3 +86,9 @@ But if this fails us—heaven forbid!
 We’ll be compelled to force the lid!"
 Kenneth Boulding
 ```
+
+```
+"If at first you don't succeed, back off exponentially."
+
+Dan Sandler, Google Software Engineer, http://landing.google.com/sre/book/chapters/addressing-cascading-failures.html
+```

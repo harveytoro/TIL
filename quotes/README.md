@@ -89,6 +89,16 @@ Kenneth Boulding
 
 ```
 "If at first you don't succeed, back off exponentially."
+Dan Sandler, Google Software Engineer, 
+http://landing.google.com/sre/book/chapters/addressing-cascading-failures.html
+```
 
-Dan Sandler, Google Software Engineer, http://landing.google.com/sre/book/chapters/addressing-cascading-failures.html
+```
+"The price of reliability is the pursuit of the utmost simplicity."
+C.A.R. Hoare
+```
+
+```
+"Success is not final, failure is not fatal: it is the courage to continue that counts"
+Winston Churchill
 ```

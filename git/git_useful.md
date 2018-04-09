@@ -56,6 +56,8 @@ $ git rm <file>
 $ git branch -m <current name> <new name> # if not on branch to rename
 
 $ git branch -m <new name> # if on branch to rename
+
+$ git push origin :<current name> <new name> # to rename upstream branch
 ```
 
 - Update branch without switching to it

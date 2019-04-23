@@ -95,3 +95,11 @@ $ git fetch
 $ git cherry-pick <SHA>
 
 ```
+
+- Print current SHA-1
+
+```bash
+
+$ git rev-parse HEAD
+
+```

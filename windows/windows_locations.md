@@ -1,5 +1,11 @@
 ## Windows Locations
 
+AppData folder
+
+```bash
+%appdata%
+```
+
 GAC - Global Assembly Cache.
 
 ```bash
